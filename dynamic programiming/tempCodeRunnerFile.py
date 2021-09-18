@@ -1,5 +1,5 @@
-t = [1 , 100 , 1 , 1, 1, 100]
-dp = [0 for i in range(len(cost)+1)] # dp[i] the minimun cost to reach the postition from 0
-dp[1] = cost[0]
-for j in range(2 , len(dp)):
-    dp[j] = 
+matrix) and j == len(matrix[0]):
+        return -10**9
+    if i==len(matrix)-1 and j == len(matrix)-1:
+        return matrix[-1][-1]
+    return matrix[i][j] + max(p
